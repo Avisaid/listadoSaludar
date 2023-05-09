@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  background-color: #252525;
+  color: aliceblue;
+}
+
+.contenedor {
+  width: 398px;
+  margin: auto;
+  border: double 5px salmon;
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(250, 128, 114);
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(255, 182, 174);
+  transition: all 0.4s ease-in-out;
+}
+
+input {
+  background-color: #565656;
+  color: rgb(157, 255, 0);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  padding: 2px;
+  width: 310px;
+  margin: auto;
+}
+
+thead {
+  font-weight: bold;
+  color: salmon;
+}
+
+td,
+th {
+  border: double 5px salmon;
+  padding: 10px;
+  text-align: center;
+}
+
+#tabla {
+  margin: 10px auto 0;
+  width: 100%;
+}
+
+#formAgregar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px 10px;
+}
+
+#mensaje {
+  border: solid 33px red;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+  background-color: #444444;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #444444;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, grey, rgba(255, 0, 0, 0.544));
+  border-radius: 10px;
+  -webkit-box-shadow: black 0 5px 13px 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(45deg, #999999, #ff0000d2);
+}
+
+/* body {
+  background-color: #000;
+}
+#matrix {
+  font: 500 4rm monospace;
+  font-size: 50px;
+  background-color: black;
+  color: #86c8a8;
+  text-shadow: 0.01em 0.01em 0.2em #86c8a8;
+}
+#matrix::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+button {
+  display: none;
+}
+input {
+  display: none;
+} */
